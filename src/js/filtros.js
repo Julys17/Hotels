@@ -37,18 +37,18 @@ export const country = await filterCountry();
 export const selectFlag = (element) => {
   switch (element) {
     case "Argentina":
-      return "../../src/resources/imgs/argentina.png";
+      return "src/resources/imgs/argentina.png";
       break;
     case "Brasil":
-      return "../../src/resources/imgs/brasil.png";
+      return "src/resources/imgs/brasil.png";
       break;
 
     case "Chile":
-      return "../../src/resources/imgs/chile.png";
+      return "src/resources/imgs/chile.png";
       break;
 
     case "Uruguay":
-      return "../../src/resources/imgs/uruguay.png";
+      return "src/resources/imgs/uruguay.png";
       break;
   }
 };
